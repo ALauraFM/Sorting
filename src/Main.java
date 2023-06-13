@@ -16,40 +16,40 @@ public class Main {
         switch (choice){
 
             case 1: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.1000.1.txt";
-            break;
+                break;
 
             case 2: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.1000.2.txt";
-            break;
+                break;
 
             case 3: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.1000.3.txt";
-            break;
+                break;
 
             case 4: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.1000.4.txt";
-            break;
+                break;
 
             case 5: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.10000.1.txt";
-            break;
+                break;
 
             case 6: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.10000.2.txt";
-            break;
+                break;
 
             case 7: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.10000.3.txt";
-            break;
+                break;
 
             case 8: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.10000.4.txt";
-            break;
+                break;
 
             case 9: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.100000.1.txt";
-            break;
+                break;
 
             case 10: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.100000.2.txt";
-            break;
+                break;
 
             case 11: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.100000.3.txt";
-            break;
+                break;
 
             case 12: filePath = "C:/Users/Laura/Documents/Java/Sorting/src/instances/num.100000.4.txt";
-            break;
+                break;
         }
 
         try {
@@ -71,7 +71,7 @@ public class Main {
             startTime = System.nanoTime();
             SelectionSort.selectionSort(arr);
             endTime = System.nanoTime();
-            elapsedTime = (endTime - startTime) / 1_000_000.0; // Tempo em milissegundos
+            elapsedTime = (endTime - startTime) / 1_000_000.0; // Execution time in milliseconds
             System.out.println("Selection Sort:");
             System.out.println(Arrays.toString(arr));
             System.out.println("Time: " + elapsedTime + " ms");
@@ -80,7 +80,7 @@ public class Main {
             startTime = System.nanoTime();
             BubbleSort.bubbleSort(arr);
             endTime = System.nanoTime();
-            elapsedTime = (endTime - startTime) / 1_000_000.0; // Tempo em milissegundos
+            elapsedTime = (endTime - startTime) / 1_000_000.0; // Execution time in milliseconds
             System.out.println("Bubble Sort:");
             System.out.println(Arrays.toString(arr));
             System.out.println("Time: " + elapsedTime + " ms");
@@ -89,7 +89,7 @@ public class Main {
             startTime = System.nanoTime();
             InsertionSort.insertionSort(arr);
             endTime = System.nanoTime();
-            elapsedTime = (endTime - startTime) / 1_000_000.0; // Tempo em milissegundos
+            elapsedTime = (endTime - startTime) / 1_000_000.0; // Execution time in milliseconds
             System.out.println("Insertion Sort:");
             System.out.println(Arrays.toString(arr));
             System.out.println("Time: " + elapsedTime + " ms");
@@ -98,7 +98,7 @@ public class Main {
             startTime = System.nanoTime();
             MergeSort.mergeSort(arr, 0, arr.length - 1);
             endTime = System.nanoTime();
-            elapsedTime = (endTime - startTime) / 1_000_000.0; // Tempo em milissegundos
+            elapsedTime = (endTime - startTime) / 1_000_000.0; // Execution time in milliseconds
             System.out.println("Merge Sort:");
             System.out.println(Arrays.toString(arr));
             System.out.println("Time: " + elapsedTime + " ms");
@@ -107,7 +107,7 @@ public class Main {
             startTime = System.nanoTime();
             QuickSort.quickSort(arr, 0, arr.length - 1);
             endTime = System.nanoTime();
-            elapsedTime = (endTime - startTime) / 1_000_000.0; // Tempo em milissegundos
+            elapsedTime = (endTime - startTime) / 1_000_000.0; // Execution time in milliseconds
             System.out.println("Quick Sort:");
             System.out.println(Arrays.toString(arr));
             System.out.println("Time: " + elapsedTime + " ms");

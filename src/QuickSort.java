@@ -1,7 +1,3 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
 public class QuickSort {
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {

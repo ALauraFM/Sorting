@@ -1,3 +1,4 @@
+
 public class InsertionSort {
     public static void insertionSort(int[] arr) {
         int n = arr.length;
@@ -11,4 +12,5 @@ public class InsertionSort {
             arr[j + 1] = key;
         }
     }
+
 }

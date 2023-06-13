@@ -8,7 +8,7 @@ public class SelectionSort {
                     minIndex = j;
                 }
             }
-            int temp = arr[minIndex];
+            int temp = (int) arr[minIndex];
             arr[minIndex] = arr[i];
             arr[i] = temp;
         }
